@@ -1,0 +1,69 @@
+extends layout
+
+block content
+	.navbar.navbar-default.navbar-fixed-top(role='navigation')
+		.container.nav-main
+			button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand.logo(href='#')
+				img(class='img-responsive', src='/img/logo_notext.png') 
+			a.navbar-brand.text(href='#')
+				| Fhellow
+			.navbar-collapse.collapse
+				ul.nav.navbar-nav.pull-right
+					li
+						a(href='#')   
+	.container
+		.row.tptblock
+			.col-md-6.welcome-block
+				h1 Welcome to Fhellow!
+				p Chat discuss projects, share ideas over a coffee, collaborate, meet for afterwork drinks and start creating your own work community.
+				a.btn.btn-default.getstartedbtn(href='/auth/twitter') Get started
+			.col-md-6.overlay.pull-right
+				img(class='img-responsive', src='/img/overlay.png')
+	.container-fluid.explainer-block
+		.container
+			.row.how-it-works-header
+				h2.fancy: span How it works
+			.row.how-it-works-steps
+				.col-sm-6.col-md-4.step
+					.thumbnail
+						img.img-rounded(class='img-responsive', src='/img/logo_notext.png')
+						h4.text-center Sign-in
+						p.text-center Sign-in using your social network of choice.
+				.col-sm-6.col-md-4.step
+					.thumbnail
+						img.img-rounded(class='img-responsive', src='/img/logo_notext.png')
+						h4.text-center See who is nearby
+						p.text-center Sign-in using your social network of choice.
+				.col-sm-6.col-md-4.step
+					.thumbnail
+						img.img-rounded(class='img-responsive', src='/img/logo_notext.png')
+						h4.text-center Chat and interact
+						p.text-center Chat online or arrange to grab a coffee.
+			.row.how-it-works-header
+				h2.fancy: span Amazing discounts
+			.row.how-it-works-steps
+				.col-sm-6.col-md-4.step
+					.thumbnail
+						img.img-rounded(class='img-responsive', src='http://www.lookmumnohands.com/images/static/lookmumnohands-logo.png')
+						h4.text-center Look Mum No Hands
+						p.text-center 10% off coffee for all fhellows.
+				.col-sm-6.col-md-4.step
+					.thumbnail
+						img.img-rounded(class='img-responsive', src='http://www.forgeandco.co.uk/assets/logo-75626dade32f65338ff0348930bbcbb5.png')
+						h4.text-center Forge and Co
+						p.text-center 20% off food.
+				.col-sm-6.col-md-4.step
+					.thumbnail
+						img.img-rounded(class='img-responsive', src='http://www.trademarkia.com/logo-images/vorstar-investment-ltd/ziferblat-79137036.jpg')
+						h4.text-center Ziferblatt
+						p.text-center 1 hour free.
+		.container.cta-block
+			h2.text-center Start finding your fhellows
+			a.btn.btn-default.getstartedbtn.center-block(href='/auth/twitter') Get started
+
+

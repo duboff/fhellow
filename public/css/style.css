@@ -1,0 +1,211 @@
+
+body {
+	padding-top: 50px;
+	background: url('/img/map_big.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans', 'sans-serif';
+  color: black;
+  height: 100%;
+
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+  font-family: 'BrandonGrotesque';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/css/BrandonGrotesque.otf") format('opentype');
+}
+.navbar {
+  background-color: white;
+}
+.nav-main {
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+ul.nav a { 
+  color: black !important;
+}
+
+.navbar-brand img {
+	margin-top: -12px;
+}
+.navbar-brand.logo {
+ padding-right: 5px; 
+}
+.navbar-brand.text {
+  padding-left: 10px;
+  text-transform:uppercase; 
+  font-weight: bold;
+  font-family: 'BrandonGrotesque';
+}
+.navbar-default .navbar-brand {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img-responsive{
+  height: 140%;
+}
+
+.img-circle{
+	width: 50px;
+	height: 50px;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'BrandonGrotesque';
+  color: white;
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: 'BrandonGrotesque';
+  color: black;
+}
+
+a {
+  color: #00B7FF  
+}
+
+p{
+ color: white;
+ font-size: 1.3em;
+}
+
+.tpppptblock{
+	background-color:rgba(0,0,0,0);
+}
+.explainer-block {
+  background-color: white;
+ height: 1000px;
+ margin-top: 10px;
+}
+.how-it-works-header {
+  padding-top: 30px;
+}
+
+.fancy {
+  line-height: 0.2;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid #e0e0e0;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+} 
+
+
+.getstartedbtn {
+
+  text-transform: uppercase;
+  color: #43bea2;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  font-family: 'BrandonGrotesque';
+  font-size: 2em;
+}
+.step {
+  display: inline-block;
+
+}
+
+.step p {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1em; 
+}
+.thumbnail {
+  border: none;
+}
+
+.cta-block{
+  max-width: 40%;
+}
+.how-it-works-steps {
+  margin-top: 30px;
+}
+
+.cta-block a.getstartedbtn {
+
+  background-color: #43bea2;
+  color: white;
+ 
+}
+.welcome-block {
+  padding-right: 15%;
+  padding-left: 10%;
+  padding-top: 45px;
+   
+}
+.welcome-block h1 {
+  font-size: 3em;
+}
+.welcome-block p {
+ text-align:justify;
+text-justify:inter-word;
+}
+
+#footer {
+  background-color: white;
+}
+#map {
+  width: 100%;
+  height: 1200px;
+}
+.handle {
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+.display-name {
+  font-size: 1em;
+  color: grey;
+}
+.twitter-img {
+  display: inline-block;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+.twitter-details {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align:middle;
+}
+.info-window {
+    width: 250px;
+    padding-left: 20px;
+}
+.profession {
+  color: black;
+  font-size: 1em;
+}
+
+#firstc{
+	padding-top: 50px;
+}

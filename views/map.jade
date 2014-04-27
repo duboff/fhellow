@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	.navbar.navbar-default.navbar-fixed-top(role='navigation')
+		.container.nav-main
+			button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand.logo(href='#')
+				img(class='img-responsive', src='/img/logo_notext.png') 
+			a.navbar-brand.text(href='#')
+				| Fhellow
+			.navbar-collapse.collapse
+				ul.nav.navbar-nav.pull-right
+					li
+						a(href='#')   
+		.row(style='position: fixed; right: 0px; margin-top: 50px; margin-right: 50px;')
+				img(src='/img/sidebar.jpg')
+	#map
